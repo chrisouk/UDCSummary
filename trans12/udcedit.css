@@ -1,0 +1,751 @@
+html
+{
+	overflow: -moz-scrollbars-vertical;
+}
+
+body 
+{
+	background-color: white;
+	margin: 0px;
+}
+
+#titleimagecontainer
+{
+	width: 1060px;
+	height: 55px;
+	background: url(images/udceditorialtitle.jpg) no-repeat;
+	overflow: auto;
+	margin-left: 5px;
+	font-family: Tahoma, Helvetica, sans-serif;
+	font-size: 13px;
+}
+
+#titleimagecontainer_thin
+{
+    height: 55px;
+    background-image: url(images/udctitle_thin.jpg);
+    background-repeat: no-repeat;
+	overflow: hidden;
+	margin: 0px auto 10px auto;
+	font-family: Tahoma, Helvetica, sans-serif;
+	font-size: 13px;
+    position: relative;
+}
+
+.transwidth 
+{
+    width: 1103px;
+}
+
+#pagecontainer
+{
+	width: 1080px;
+	margin-left: auto;
+	margin-right: auto;
+	overflow: auto;
+	padding: 5px;
+	font-family: Tahoma, Helvetica, sans-serif;
+	font-size: 13px;
+}
+
+#commentspagecontainer
+{
+	width: 760px;
+	margin-left: auto;
+	margin-right: auto;
+	overflow: auto;
+	padding: 5px;
+	font-family: Tahoma, Helvetica, sans-serif;
+	font-size: 13px;
+}
+
+
+.menuchoice {
+    border:  1px solid #ababab;
+    margin: 2px 2px 2px 2px;
+    height: 18px;
+	font-family: Tahoma, Helvetica, sans-serif;
+	font-size: 11px; 
+    line-height: 25px;
+    vertical-align: middle;
+    unicode-bidi: bidi-override;
+    direction: ltr;
+}
+
+#commentsfilterdiv {
+    width: 750px;
+    float: left;
+    margin-top: 10px;
+    height: 40px;
+    background-color: #efefef;
+    border: 1px solid #aaaaaa;
+    text-align: right;
+    line-height: 40px;
+    vertical-align: middle;
+	font-family: Tahoma, Helvetica, sans-serif;
+	font-size: 13px;
+}
+
+#commentsdiv {
+    width: 750px;
+    float: left;
+    margin-top: 10px;
+	font-family: Tahoma, Helvetica, sans-serif;
+	font-size: 13px;
+    padding: 2px 2px 2px 2px;
+    overflow: auto;
+}
+
+
+.combodiv {
+    float: left;
+    height: 22px;
+    width:  150px;
+	font-family: Tahoma, Helvetica, sans-serif;
+	font-size: 13px;
+    line-height: 25px;
+    vertical-align: middle;   
+}
+
+.inputdiv {
+    width: 220px;
+    float: left;
+    margin: 0;
+}
+
+.searchinput {
+    width: 100px;
+    height: 15px;
+	font-family: Tahoma, Helvetica, sans-serif;
+	font-size: 11px;
+    border: 1px solid #ababab;
+    line-height: 25px;
+    vertical-align: middle;
+}
+
+.captioninput {
+    width: 75px;
+}
+
+.notationinput {
+    width: 50px;
+}
+
+.searchsubmit {
+    width: 50px;
+    height: 22px;
+    line-height: 20px;
+    vertical-align: middle;
+	font-family: Tahoma, Helvetica, sans-serif;
+    font-size: 11px;
+}
+
+.searchbox {
+    float: left;
+	width: 600px;
+    clear: left;
+	border: 1px solid #cccccc;
+	margin-bottom: 5px;
+	margin-left: 10px;
+	margin-right: 10px;
+	background-color: #efefef;	
+	overflow: auto;
+	padding: 5px;
+	font-family: Tahoma, Helvetica, sans-serif;
+	font-size: 13px;
+}
+
+.searchkeywordbox {
+	width: 445px;
+}
+
+.backcolorwhite {
+    width: 455px;
+    background-color: white;
+    padding: 0;
+}
+
+.lefthandpane {
+	height: 514px;
+}
+
+#titleimage
+{
+   	float: left;
+	width: 1145px;
+	margin-bottom: 10px;
+    margin-top: 5px;
+    clear: left;
+}
+
+.transpane
+{
+	width: 1103px;
+	margin: 5px auto;
+    overflow: auto;
+}
+
+.leftcontainer
+{
+	float: left;
+	width: 475px;
+	margin-top: 5px;
+	margin-bottom: 5px;
+	background-color: white;
+	height: 700px;
+	clear: left;
+	padding: 0px;
+	overflow: hidden;
+}
+
+.leftcontainer_remove
+{
+	float: left;
+	width: 465px;
+	margin-top: 5px;
+	margin-bottom: 5px;
+	background-color: white;
+	height: 600px;
+	clear: left;
+	padding: 5px;
+	border: 1px solid #C4DBDA;
+	overflow: auto;
+}
+
+.leftpane
+{
+	float: left;
+	width: 451px;
+	margin-left: 2px;
+	margin-top: 2px;
+	margin-bottom: 2px;
+    
+	background-color: white;
+	height: 510px;
+	clear: left;
+	/*border: 1px solid #C4DBDA;*/
+	overflow: auto;
+}
+
+.rightpane
+{
+	float: right;
+	width: 622px;
+	margin: 5px 0px 0px 0px;
+	background-color: white;
+    overflow: auto;
+}
+
+.transmenubox
+{
+    width: 1095px; 
+    float: left; clear: left; 
+    background-color: #efefef; 
+    color:black; 
+    padding: 4px; 
+    height: 20px; 
+    text-align: right; 
+    font-family: tahoma; 
+    font-size: 13px;
+    line-height: 20px;
+    vertical-align: middle;
+}
+.combobox {
+	font-family: Tahoma, Helvetica, sans-serif;
+	font-size: 13px;
+    border: 1px solid #888888;
+    padding: 1px;
+}
+
+.reftable {
+	margin-bottom: 5px;
+	font-family: Tahoma, Helvetica, sans-serif;
+	font-size: 13px;
+}
+
+.exampletable {
+	margin-bottom: 5px;
+	font-family: Tahoma, Helvetica, sans-serif;
+	font-size: 13px;
+    width: 480px;
+    overflow: hidden;
+}
+
+.inputbutton {
+	font-family: Tahoma, Helvetica, sans-serif;
+	font-size: 13px;
+}
+
+.inputsection {
+	float: left;
+	clear: left;
+	width: 472px;
+	background-color: #a7c6c8;
+	border: 1px solid #b0b0b0;
+	padding: 3px;
+}
+
+.inputrow {
+	float: left;
+	clear: left;
+	width: 100%;
+	margin-bottom: 2px;
+}
+
+.inputlabel {
+	float: left;
+	width: 80px;
+	text-align: right;
+	line-height: 22px;
+}
+
+.inputvalue {
+	float: left;
+	width: 218px;
+	margin-left: 5px;
+}
+
+.inputvaluelong {
+	width:380px;
+}
+
+.inputexamples
+{
+    width: 280px;
+}
+
+.errorbox {
+	width: 600px;
+    float: left;
+    clear: left;
+	border: 1px solid #cccccc;
+	margin-bottom: 10px;
+	margin-left: auto;
+	margin-right: auto;
+	overflow: auto;
+	padding: 5px;
+	font-family: Tahoma, Helvetica, sans-serif;
+	font-size: 13px;
+	border: 1px solid red;
+	background-color: #FFD2D2;
+	color:#9F0000;
+	text-align: center;
+    unicode-bidi: bidi-override;
+    direction: ltr;
+}
+
+.successbox {
+	width: 600px;
+ 	float: left;
+	clear: left;
+	border: 1px solid #cccccc;
+	margin-bottom: 5px;
+	margin-left: 10px;
+	margin-right: 10px;		
+	overflow: auto;
+	padding: 5px;
+	font-family: Tahoma, Helvetica, sans-serif;
+	font-size: 13px;
+	border: 1px solid green;
+	background-color: #D2FFD2;
+	color:#009F00;
+	text-align: center;
+}
+
+.editleftcolumn {
+	float: left;
+	overflow: inherit;
+	margin: 0px;
+	margin-top: 5px;
+	clear: left;
+}
+
+.searchcolumn {
+	width: 440px;
+}
+
+.fixedwidthleftcolumn {
+	width: 390px;
+}
+
+.wideedit {
+    width: 474px;
+}
+
+.edittextarea {
+	font-family: Tahoma, Helvetica, sans-serif;
+	font-size: 13px;
+        border: 1px solid #aaaaaa;
+        padding: 2px;
+}
+.leftarea {
+	float: left;
+	clear: left;
+}
+
+.greytextarea {
+        background-color: #FDFFBB;
+        color: black;
+}
+
+.blacktextarea {
+        background-color:  white;
+        color: black;
+}
+
+.widecolumn {
+	width: 595px;
+}
+
+.editrightcolumn {
+	float: right;
+	overflow: auto;
+	margin: 0px;
+	margin-top: 5px;
+	margin-right: 6px;
+}
+
+.fixedwidthrightcolumn {
+	width: 390px;
+}
+
+.editlabel {
+	float: left;
+	line-height: 28px;
+	padding: 2px;
+	font-family: Tahoma, Helvetica, sans-serif;
+	font-size: 13px;
+	vertical-align: middle;
+	color: #000088;
+}
+
+.searchlabel
+{
+    width: 70px;
+    line-height: 20px;
+}
+
+.inputeditlabel {
+	line-height: 18px;
+}
+
+.clearleft {
+	clear: left;
+}
+
+.editvalue {
+	float: left;
+	padding: 4px;
+	font-family: Tahoma, Helvetica, sans-serif;
+	font-size: 13px;
+	border: 1px solid #dddddd;
+	background-color: #eeeeee;
+}
+
+.bidiltr {
+    unicode-bidi: bidi-override;
+    direction: ltr;
+}
+
+.righttoleft {
+    float: right;
+}
+
+.noborder {
+    border: none;
+}
+
+.editpadding {
+    padding: 0 0 5px 0;
+}
+
+.fixedwidthlabel {
+	width: 100px;
+}
+
+.fixedwidthvalue {
+	width: 270px;
+}
+
+.rightalign {
+	text-align: right;
+}
+
+.nonedit {
+	line-height: 20px;
+}
+
+.editcombo {
+	line-height: 13px;
+	padding: 2px;
+	font-family: Tahoma, Helvetica, sans-serif;
+	font-size: 13px;
+	width: 250px;
+}
+
+.widevalue {
+	width: 480px;
+}
+
+.textinput {
+	font-family: Tahoma, Helvetica, sans-serif;
+	font-size: 13px;
+}
+
+.refcolors {
+	background-color: #ffeeee;
+}
+
+.sourcebox
+{
+        background-color: #FDFFBB;
+        color: #444444;
+}
+
+#recordbox
+{	
+	font-family: Calibri, Tahoma, Helvetica, sans-serif;
+	font-size: 0.95em;
+	line-height: 1.1em;
+	width: 450px;
+	float: left;
+    background-color: white; /*#ebebff;*/
+    overflow: auto;
+    height: 500px;
+  	padding: 3px;
+    border: 1px solid #aaaaaa;
+}
+
+#openclosemenu
+{
+    float: left;
+    width: 465px;
+    clear: left;
+    background-color: #efefff;
+    color: black;
+    height: 25px;    
+    margin-left: 0px;
+    margin-bottom: 5px;
+    text-align: left;
+    font-family: Tahoma, Helvetica, sans-serif;
+    font-weight: normal;
+    font-size: 13px;
+    line-height: 22px;
+    vertical-align: middle;
+}
+
+#openclosemenudivider
+{
+    float: left;
+    width: 465px;
+    clear: left;
+    color: black;
+    margin-left: 0px;
+    margin-bottom:5px;
+}
+
+#openclosemenu a
+{
+    color: black;
+    padding:  2px;
+	font-family: Calibri, Tahoma, Helvetica, sans-serif;
+	font-size: 10px;
+    text-decoration: none;
+	line-height: 1.5em;
+    vertical-align: middle;
+}
+
+#classtree
+{
+    float: left;
+    width: 430px;
+    clear: left;
+    color: black;
+    /*overflow: auto;*/
+}
+
+#editcancelexample {
+    display: none;
+    width: 90px;
+    float: right;
+    height: 15px;
+    vertical-align: middle;
+    display: none;
+}
+
+.exampleentry {
+    width:  361px;
+    height: 3em;
+    border: 0;
+    background-color: #dedede;
+	font-family: Tahoma, Helvetica, sans-serif;
+	font-size: 13px;
+    padding: 2px 2px 2px 2px;
+}
+
+.examplenotation {
+    width: 156px;
+    padding: 2px 2px 2px 2px;
+}
+
+.exampledescription {
+    width: 311px;
+    padding: 2px 2px 2px 2px;
+}
+
+
+.advancedsearch {
+    width: 221px;
+    text-align: right;
+    padding: 0px;
+    margin: 0px 0px 5px 104px;
+    overflow: hidden;
+}
+
+.searchpanel {
+    width: 300px;
+}
+
+.singleline {
+    margin-top: 5px;
+    line-height: 1.3em;
+}
+
+/*
+ * Advanced search 
+ * =============== */
+ 
+.searchrow {
+    float: left;
+    width: 380px;
+	font-family: Tahoma, Helvetica, sans-serif;
+	font-size: 13px;
+}
+
+.topsearchrow {
+    margin-top: 5px;
+}
+
+.searchcheck {
+    float: left;
+    width: 150px;
+	font-family: Tahoma, Helvetica, sans-serif;
+	font-size: 13px;
+}
+
+ .searchresultstable 
+ {
+    background-color: #efefef;
+ }
+
+.searchcontrolbox {
+    float: none;
+    width:  500px;
+    margin: 0px auto 10px auto;
+}
+
+.backtoeditor {
+    float: none;
+    width: 500px;
+    padding: 0px 5px;
+    text-align: right;
+    height: 22px;
+    line-height: 22px;
+    vertical-align: middle;
+    margin: 0 auto 10px auto;
+}
+
+.backtoeditor a {
+    line-height: 22px;
+    vertical-align: middle;    
+}
+
+.searchcontainer
+{
+	width: 1060px;
+	overflow: auto;
+	margin: 0px auto;
+	padding: 0px 5px;
+	font-family: Tahoma, Helvetica, sans-serif;
+	font-size: 13px;
+}
+
+.topmenurightbox
+{
+    width: 400px;
+    float: right;
+    clear: right;
+    height: 21px;
+    padding: 0px;
+    margin: 0px;  
+    vertical-align: bottom;
+    position: absolute; 
+    right: 0;
+    bottom: 1px;      
+    text-align: right;
+}
+
+.topmenurightbox2 {
+    bottom: 30px;
+}
+
+.smallfont {
+    font-family: Tahoma, Helvetica, sans-serif;
+	font-size: 11px;
+}
+
+.extendededit {
+    width: 350px;
+    padding: 2px 0px;
+    height: 20px;  
+    line-height: 20px;
+    vertical-align: middle;  
+    margin-bottom: 3px;
+}
+
+#choicepar {
+	font-family: Tahoma, Helvetica, sans-serif;
+	font-size: 11px;
+    color: black;
+    float: left;   
+    width: 250px;
+} 
+
+.leftlistitem {
+	font-family: Tahoma, Helvetica, sans-serif;
+	font-size: 11px;
+	line-height: 17px;
+	height: 17px;
+	width: 430px;
+	overflow: hidden;	
+}
+
+.searcherrorbox {
+	width: 500px;
+	border: 1px solid #cccccc;
+	margin-bottom: 5px;
+	margin-left: auto;
+	margin-right: auto;
+	background-color: #efefef;	
+	overflow: auto;
+	padding: 5px;
+	font-family: Tahoma, Helvetica, sans-serif;
+	font-size: 13px;
+	font-weight: bold;
+	color: red;
+	text-align: center;
+}
+
+.textleft {
+    text-align: left;
+}
+
+.textright {
+    text-align: right;
+}
+
+.leftpaneitem {
+    display: inline-block;
+    unicode-bidi: bidi-override;
+    direction: ltr;
+}

@@ -1,0 +1,92 @@
+body {
+	background-color: white;
+}
+
+/* Named tags */
+
+#maincontainer {
+	width: 1014px;
+	background-color: #f8f8f8;
+	margin-left: auto;
+	margin-right: auto;
+	padding: 5px;
+}
+#titlecontainer {
+	width: 1024px;
+    height: 90px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 25px;
+}
+
+#logincontainer {
+	width: 320px;
+	margin-left: auto;
+	margin-right: auto;
+    margin-bottom: 20px;
+	border: 1px solid #565656;
+	background-color: #FDFFBB;
+	color: black;
+	font-family: Tahoma, Helvetica, sans-serif;
+	font-size: 13px;
+	padding: 5px;
+	overflow: auto;
+    -moz-border-radius: 5px;
+    border-radius: 5px;    
+}
+
+.whiteback {
+	width: 1014px;
+	margin-left: auto;
+	margin-right: auto;
+    margin-top: 10px;
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+    vertical-align: top;
+    background-color: white;
+    font-family: Tahoma, Helvetica, sans-serif;
+	font-size: 13px;    
+}
+
+.loginfield {
+	float: left;
+	width: 246px;
+	clear: right;
+}
+
+.loginlabel {
+	float: left;
+	width: 65px;
+	clear: left;
+}
+
+.loginsubmit {
+	float: right;
+	clear: left;
+	clear: right;
+}
+.loginrow
+{
+	width: 100%;
+	float: left;
+	clear: left;
+	margin-bottom: 5px;
+}
+#updates {
+	width: 600px;
+	margin-left: auto;
+	margin-right: auto;
+	color: black;
+	font-family: Tahoma, Helvetica, sans-serif;
+	font-size: 13px;
+	padding: 5px;
+	overflow: auto;
+}
+
+.loginprogress {
+    width: 600px;
+    margin-left: auto;
+    margin-right: auto;
+
+}

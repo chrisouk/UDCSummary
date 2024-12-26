@@ -1,0 +1,28 @@
+.results {
+    background-color: #efefef;
+
+}
+
+.results td {
+    background-color: white;
+}
+
+.results td.header {
+    font-weight: bold;
+}
+
+.results td.lightgreen {
+    background-color: lightgreen;
+}
+
+.results td.yellow {
+    background-color: yellow;
+}
+
+.results td.lightred {
+    background-color: #f08080;
+}
+
+.results td.lightgrey {
+    background-color: lightgray;
+}

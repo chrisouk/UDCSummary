@@ -1,0 +1,55 @@
+.leftcontainer
+{
+	float: right;
+	width: 475px;
+	margin-top: 5px;
+	margin-bottom: 5px;
+	background-color: white;
+	height: 700px;
+	padding: 0px;
+	overflow: hidden;
+}
+
+.leftpane
+{
+	float: right;
+	width: 451px;
+	margin-right: 2px;
+	margin-top: 2px;
+	margin-bottom: 2px;
+    
+	background-color: white;
+	height: 510px;
+	/*border: 1px solid #C4DBDA;*/
+	overflow: auto;
+}
+
+.rightpane
+{
+    float: left;
+    clear: left;
+	width: 622px;
+	margin: 5px 0px 0px 0px;
+	background-color: white;
+    overflow: auto;
+}
+
+.editleftcolumn_rtl {
+    float: right;
+    margin: 0px;
+    margin-top: 5px;
+    clear: right;
+}
+
+.textinput {
+	font-family: Tahoma, Helvetica, sans-serif;
+	font-size: 13px;
+    direction: rtl;
+}
+
+.textinput_ltr {
+    unicode-bidi: bidi-override;
+    direction: ltr;
+    text-align: right;
+}
+
